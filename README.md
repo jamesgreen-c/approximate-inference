@@ -20,17 +20,6 @@ core/
 - **Mean-Field Variational Inference**: Fully factorized approximation on binary factor graphs.
 - **Loopy Belief Propagation**: Parallel message passing for approximate marginal inference.
 
-## Usage
-
-Example scripts can be found in the `core/scripts/` directory. Each script is self-contained and demonstrates training and inference for one of the models.
-
-Run an example GP regression script:
-
-## Notes
-
-- Kernels and model structures are kept modular for reuse and experimentation.
-- Numerical precision and stability are prioritized for inference tasks.
-
 ## ▶️ How to Run
 
 Example scripts are under `core/scripts/`. They’re minimal and to the point.
@@ -45,3 +34,10 @@ python core/scripts/mean_field_approximation.py
 # Run Loopy Belief Propagation
 python core/scripts/loopy_bp_test.py
 ```
+
+
+## Notes
+
+- Kernels and model structures are kept modular for reuse and experimentation.
+- Numerical precision and stability are prioritized for inference tasks.
+
