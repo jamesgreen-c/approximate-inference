@@ -2,6 +2,14 @@
 
 This repository contains a modular and clean implementation of Gaussian Process Regression, Mean-Field Variational Inference, and Loopy Belief Propagation.
 
+---
+## Features
+
+- **Gaussian Process Regression**: Modular GP implementation with pluggable kernels and numerical stability.
+- **Mean-Field Variational Inference**: Fully factorized approximation on binary factor graphs.
+- **Loopy Belief Propagation**: Parallel message passing for approximate marginal inference.
+
+---
 ## Project Structure
 
 ```
@@ -14,12 +22,7 @@ core/
 └── scripts/                   # Example training and evaluation scripts
 ```
 
-## Features
-
-- **Gaussian Process Regression**: Modular GP implementation with pluggable kernels and numerical stability.
-- **Mean-Field Variational Inference**: Fully factorized approximation on binary factor graphs.
-- **Loopy Belief Propagation**: Parallel message passing for approximate marginal inference.
-
+---
 ## ▶️ How to Run
 
 Example scripts are under `core/scripts/`. They’re minimal and to the point.
@@ -35,7 +38,7 @@ python core/scripts/mean_field_approximation.py
 python core/scripts/loopy_bp_test.py
 ```
 
-
+---
 ## Notes
 
 - Kernels and model structures are kept modular for reuse and experimentation.
